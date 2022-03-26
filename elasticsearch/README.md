@@ -52,7 +52,6 @@ default settings. All of these settings are configurable.
 
 See [supported configurations][] for more details.
 
-
 ## Installing
 
 ### Install released version using Helm repository
