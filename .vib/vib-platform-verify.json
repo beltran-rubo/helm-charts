@@ -19,7 +19,7 @@
     "verify": {
       "context": {
         "resources": {
-          "url": "{SHA_ARCHIVE}"
+          "url": "{SHA_ARCHIVE}",
           "path": "/elasticsearch"
         },
         "runtime_parameters": "c2VydmljZToKICB0eXBlOiBMb2FkQmFsYW5jZXIKCnJlc291cmNlczoKICByZXF1ZXN0czoKICAgIGNwdTogIjEwMDBtIgogICAgbWVtb3J5OiAiMkdpIgogIGxpbWl0czoKICAgIGNwdTogIjEwMDBtIgogICAgbWVtb3J5OiAiNkdpIgo=",
