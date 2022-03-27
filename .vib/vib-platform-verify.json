@@ -29,7 +29,11 @@
       },
       "actions": [
         {
-          "action_id": "trivy"
+          "action_id": "trivy",
+          "params": {
+            "threshold": "IGNORE_ALL",
+            "vuln_type": ["OS"]
+          }
         },
         {
           "action_id": "goss",
