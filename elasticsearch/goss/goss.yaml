@@ -1,0 +1,45 @@
+command:
+  elasticsearch:
+    exec: elasticsearch --help
+    exit-status: 0
+    stdout:
+      - Starts Elasticsearch
+    stderr: []
+    timeout: 50000
+  elasticsearch-version:
+    exec: elasticsearch --version
+    exit-status: 0
+    stdout:
+      - 7.12.2
+    stderr: []
+    timeout: 20000
+  elasticsearch-200OK:
+    exec: curl -I localhost:9200
+    exit-status: 0
+    stdout:
+      - HTTP/1.1 200 OK
+    stderr: []
+    timeout: 50000
+  elasticsearch-helloworld:
+    exec: curl localhost:9200
+    exit-status: 0
+    stdout:
+      - You Know, for Search
+    stderr: []
+    timeout: 50000
+  elasticsearch-put-index:
+    exec: curl -X PUT 'localhost:9200/my-index-000001?pretty' -H 'Content-Type:application/json' -d '{"settings":{"index":{"number_of_shards":3,"number_of_replicas":2}}}'
+    exit-status: 0
+    stdout:
+      - '"acknowledged" : true'
+  elasticsearch-delete-index:
+    exec: curl -X PUT "localhost:9200/my-index-000002?pretty" -H 'Content-Type:application/json' -d '{"settings":{"index":{"number_of_shards":3,"number_of_replicas":2}}}' > /dev/null && curl -X DELETE "localhost:9200/my-index-000002?pretty"
+    exit-status: 0
+    stdout:
+      - '"acknowledged" : true'
+  elasticsearch-get-index:
+    exec: curl -X PUT 'localhost:9200/my-index-000003?pretty' -H 'Content-Type:application/json' -d '{"settings":{"index":{"number_of_shards":3,"number_of_replicas":2}}}' > /dev/null && curl -X GET "localhost:9200/my-index-000003?pretty"
+    exit-status: 0
+    stdout:
+      - '"my-index-000003" : {'
+
