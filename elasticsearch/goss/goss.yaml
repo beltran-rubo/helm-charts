@@ -10,7 +10,7 @@ command:
     exec: elasticsearch --version
     exit-status: 0
     stdout:
-      - 7.12.0
+      - 7.12.2
     stderr: []
     timeout: 20000
   elasticsearch-200OK:
