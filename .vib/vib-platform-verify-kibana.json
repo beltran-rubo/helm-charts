@@ -24,7 +24,10 @@
         },
         "runtime_parameters": "c2VydmljZToKICB0eXBlOiBMb2FkQmFsYW5jZXIKICBwb3J0OiA4MAogIGh0dHBQb3J0TmFtZTogaHR0cAoKZXh0cmFFbnZzOiBbXQoKIyBLaWJhbmEgcmVxdWlyZXMgYW4gRWxhc3RpY3NlYXJjaCBpbnN0YW5jZSBydW5uaW5nLiBXZSBjYW4gc2F0aXNmeSB0aGlzIGRlcGVuZGVuY3kgYnkgYWRkaW5nIGFuIEVsYXN0aWNzZWFyY2ggc2lkZWNhcgojIGNvbnRhaW5lci4gVG8gbWFrZSBFbGFzdGljc2VhcmNoIHdvcmssIHdlIG5lZWQgdG8gYWxzbyBzZXQgdGhlIHZtLm1heF9tYXBfY291bnQga2VybmVsIHBhcmFtZXRlciBpbiBhbiBpbml0IGNvbnRhaW5lci4KCmVsYXN0aWNzZWFyY2hIb3N0czogImh0dHA6Ly9sb2NhbGhvc3Q6OTIwMCIKCmV4dHJhSW5pdENvbnRhaW5lcnM6CiAgLSBuYW1lOiBzeXNjdGwKICAgIGltYWdlOiBiaXRuYW1pL21pbmlkZWI6bGF0ZXN0CiAgICBjb21tYW5kOgogICAgICAtIC9iaW4vYmFzaAogICAgICAtIC1lYwogICAgICAtIGFwdC1nZXQgdXBkYXRlIC1xcSAmJiBhcHQtZ2V0IGluc3RhbGwgLXkgLS1uby1pbnN0YWxsLXJlY29tbWVuZHMgcHJvY3BzICYmIHN5c2N0bCAtdyB2bS5tYXhfbWFwX2NvdW50PTI2MjE0NAogICAgc2VjdXJpdHlDb250ZXh0OgogICAgICBwcml2aWxlZ2VkOiB0cnVlCgpleHRyYUNvbnRhaW5lcnM6CiAgLSBuYW1lOiBlbGFzdGljc2VhcmNoCiAgICBpbWFnZTogZG9ja2VyLmVsYXN0aWMuY28vZWxhc3RpY3NlYXJjaC9lbGFzdGljc2VhcmNoOjcuMTUuMAogICAgZW52OgogICAgICAtIG5hbWU6IGRpc2NvdmVyeS50eXBlCiAgICAgICAgdmFsdWU6IHNpbmdsZS1ub2RlCgpwb2RBbm5vdGF0aW9uczoKICAjIFdoZW4gcnVubmluZyBhIG11bHRpY29udGFpbmVyIHBvZCwgYW4gZXhlYyB3aWxsIGRlZmF1bHQgdG8gdGhlIGZpcnN0IGNvbnRhaW5lciBkZWNsYXJlZC4gV2UgZW5zdXJlIHdlIGRlZmF1bHQgdG8KICAjIEtpYmFuYSwgZXZlbiBpZiBpdCBpcyBub3QgdGhlIGZpcnN0IG9uZSwgd2l0aCB0aGlzIGFubm90YXRpb24uCiAga3ViZWN0bC5rdWJlcm5ldGVzLmlvL2RlZmF1bHQtY29udGFpbmVyOiBraWJhbmEK",
         "target_platform": {
-          "target_platform_id": "{TARGET_PLATFORM}"
+          "target_platform_id": "{TARGET_PLATFORM}",
+          "size": {
+            "name": "M8"
+          }
         }
       },
       "actions": [
